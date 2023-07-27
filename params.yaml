@@ -2,7 +2,7 @@
 'file_name' : 'ev_df.csv',
 'data_dir' : 'data/Cleaned data/',
 'model_dir' : './',
-'label_name' : 'Close',
+'label_name' : 'Number of vehicles',
 'train_frac' : 0.5,
 'sequence_length' : 30,
 'batch_size' : 8,
