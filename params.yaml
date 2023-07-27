@@ -1,0 +1,13 @@
+{
+'file_name' : 'ev_df.csv',
+'data_dir' : 'data/Cleaned data/',
+'model_dir' : './',
+'label_name' : 'Close',
+'train_frac' : 0.5,
+'sequence_length' : 30,
+'batch_size' : 8,
+'n_epochs' : 20,
+'n_epochs_stop' : 5,
+'background_data_size' : 900,
+'test_sample_size' : 100
+}
