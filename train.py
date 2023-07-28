@@ -96,8 +96,8 @@ def train_model(
             data = torch.Tensor(np.array(data))
             output = model(data)
             loss = criterion(output.flatten(), target.type_as(output))
-            # if type(criterion) == torch.nn.modules.loss.MSELoss:
-            #     loss = torch.sqrt(loss)  # RMSE
+            #if type(criterion) == torch.nn.modules.loss.MSELoss:
+                 #loss = torch.sqrt(loss)  # RMSE
             loss.backward()
             optimizer.step()
 
