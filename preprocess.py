@@ -96,10 +96,10 @@ def prep_data(
     train_df, test_df, train_size = split_data(df_clean, train_frac)
 
     # subset data
-    train_df = train_df[['Year','gdhi','Number of vehicles', 'population', 'Average variable unit price (£/kWh)', 'Sum of Chargepoints',
+    train_df = train_df[['Year','Number of vehicles', 'population', 'Average variable unit price (£/kWh)', 'Sum of Chargepoints',
                          'ULSP:  Pump price (p/litre)', 'ULSD: Pump price (p/litre)','NQF level 4 or above', 'Quarter',
                          'NQF level 3 or above', 'NQF level 2 or above','latitude', 'longitude','Number of car models']]
-    test_df = test_df[['Year','gdhi','Number of vehicles', 'population', 'Average variable unit price (£/kWh)', 'Sum of Chargepoints',
+    test_df = test_df[['Year','Number of vehicles', 'population', 'Average variable unit price (£/kWh)', 'Sum of Chargepoints',
                          'ULSP:  Pump price (p/litre)', 'ULSD: Pump price (p/litre)','NQF level 4 or above', 'Quarter',
                          'NQF level 3 or above', 'NQF level 2 or above','latitude', 'longitude','Number of car models']]
 
